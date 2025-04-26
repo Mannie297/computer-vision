@@ -2,8 +2,6 @@
 
 A professional computer vision application that provides real-time object detection, image detection, and custom model training capabilities using YOLOv8 and Streamlit.
 
-![Application Screenshot](https://via.placeholder.com/800x400?text=Application+Screenshot)
-
 ## Features
 
 ### Real-time Object Detection
@@ -52,15 +50,6 @@ A professional computer vision application that provides real-time object detect
   <img src="screenshots/detection_results.PNG" alt="Detection Results" width="800"/>
   <p><em>Detailed detection results and object counts</em></p>
 </div>
-
-> **Note**: If you're seeing broken image links, please:
-> 1. Run the application
-> 2. Take screenshots of each interface
-> 3. Save them in the `screenshots` folder with these exact names:
->    - `realtime_detection.PNG`
->    - `image_detection.PNG`
->    - `training_interface.PNG`
->    - `detection_results.PNG`
 
 ## Installation
 

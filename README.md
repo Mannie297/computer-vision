@@ -30,20 +30,30 @@ A professional computer vision application that provides real-time object detect
 ## Screenshots
 
 ### Real-time Detection
-![Real-time Detection](screenshots/realtime_detection.png)
-*Real-time object detection using webcam feed*
+<div align="center">
+  <img src="./screenshots/realtime_detection.png" alt="Real-time Detection" width="800"/>
+  <p><em>Real-time object detection using webcam feed</em></p>
+</div>
 
 ### Image Detection
-![Image Detection](screenshots/image_detection.png)
-*Object detection in uploaded images*
+<div align="center">
+  <img src="./screenshots/image_detection.png" alt="Image Detection" width="800"/>
+  <p><em>Object detection in uploaded images</em></p>
+</div>
 
 ### Training Interface
-![Training Interface](screenshots/training_interface.png)
-*Custom model training interface*
+<div align="center">
+  <img src="./screenshots/training_interface.png" alt="Training Interface" width="800"/>
+  <p><em>Custom model training interface</em></p>
+</div>
 
 ### Detection Results
-![Detection Results](screenshots/detection_results.png)
-*Detailed detection results and object counts*
+<div align="center">
+  <img src="./screenshots/detection_results.png" alt="Detection Results" width="800"/>
+  <p><em>Detailed detection results and object counts</em></p>
+</div>
+
+> Note: Please add your own screenshots to the `screenshots` directory after running the application.
 
 ## Installation
 

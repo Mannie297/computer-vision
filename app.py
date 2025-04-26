@@ -50,16 +50,6 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Add title and description to the main page
-st.title("🎥 Real-time Object Detection System")  # Main title
-st.markdown("""
-    This application performs real-time object detection using YOLOv8.
-    Select your model and confidence threshold, then start the detection.
-""")  # Description text
-
-# Create tabs for different functionalities
-tab1, tab2, tab3 = st.tabs(["Detection", "Training", "Image Detection"])
-
 # Model mapping
 MODEL_MAP = {
     "YOLOv8n (Fastest)": "yolov8n.pt",
@@ -188,6 +178,7 @@ def run_detection(model: YOLO, conf_threshold: float, input_source: str, uploade
             os.unlink(tfile.name)
 
 def main():
+    # Main title and description - only place where these should appear
     st.title("🎥 Real-time Object Detection System")
     st.markdown("""
         This application performs real-time object detection using YOLOv8.
@@ -198,7 +189,6 @@ def main():
     tab1, tab2, tab3 = st.tabs(["Detection", "Training", "Image Detection"])
 
     with tab1:
-        # Sidebar controls
         with st.sidebar:
             st.header("Settings")
             
@@ -386,7 +376,7 @@ def main():
             # Model selection
             model_type = st.selectbox(
                 "Select Model",
-                ["YOLOv8n (Fastest)", "YOLOv8s", "YOLOv8m", "YOLOv8l", "YOLOv8x (Most Accurate)", "Fruit Detection Model"],
+                list(MODEL_MAP.keys()),
                 index=0,
                 key="image_model"
             )

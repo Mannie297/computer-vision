@@ -31,29 +31,36 @@ A professional computer vision application that provides real-time object detect
 
 ### Real-time Detection
 <div align="center">
-  <img src="./screenshots/realtime_detection.png" alt="Real-time Detection" width="800"/>
+  <img src="screenshots/realtime_detection.png" alt="Real-time Detection" width="800"/>
   <p><em>Real-time object detection using webcam feed</em></p>
 </div>
 
 ### Image Detection
 <div align="center">
-  <img src="./screenshots/image_detection.png" alt="Image Detection" width="800"/>
+  <img src="screenshots/image_detection.png" alt="Image Detection" width="800"/>
   <p><em>Object detection in uploaded images</em></p>
 </div>
 
 ### Training Interface
 <div align="center">
-  <img src="./screenshots/training_interface.png" alt="Training Interface" width="800"/>
+  <img src="screenshots/training_interface.png" alt="Training Interface" width="800"/>
   <p><em>Custom model training interface</em></p>
 </div>
 
 ### Detection Results
 <div align="center">
-  <img src="./screenshots/detection_results.png" alt="Detection Results" width="800"/>
+  <img src="screenshots/detection_results.png" alt="Detection Results" width="800"/>
   <p><em>Detailed detection results and object counts</em></p>
 </div>
 
-> Note: Please add your own screenshots to the `screenshots` directory after running the application.
+> **Note**: If you're seeing broken image links, please:
+> 1. Run the application
+> 2. Take screenshots of each interface
+> 3. Save them in the `screenshots` folder with these exact names:
+>    - `realtime_detection.png`
+>    - `image_detection.png`
+>    - `training_interface.png`
+>    - `detection_results.png`
 
 ## Installation
 
